@@ -72,4 +72,6 @@ fun main(args: Array<String>) {
     println(zhouliang.region)
     val guozi = shangxi(true,"shxi")
     println(guozi.region)
+    val chinese = Chinese(true,"中国")
+    println(chinese.cook())
 }
