@@ -50,7 +50,7 @@ open class Chinese constructor(var sex:Boolean,var region:String){
             }
         }
     //方法
-    fun cook(){
+    open fun cook(){
         val menu = arrayOf("鸡蛋","土豆","茄子")
         val desc = menu.reduce { s1, s2 -> s1 + "," + s2}
         println("我会做${desc}")
@@ -60,6 +60,12 @@ open class Chinese constructor(var sex:Boolean,var region:String){
 class shanxi(sex : Boolean,region: String = "sx") : Chinese(sex,region){
     var yuyan = "sxputonghua"
     override var skin = "sxyellow"
+    override fun cook(){
+//        super.cook()
+        val menu = arrayOf("刀削面","矛头","光头")
+        val desc = menu.reduce { s1, s2 -> s1 + "," +s2 }
+        println("我会做${desc}")
+    }
 }
 class shangxi(sex: Boolean,region: String) :Chinese(sex,region){
     var yuyan = "shangxiputonghua"
@@ -74,4 +80,6 @@ fun main(args: Array<String>) {
     println(guozi.region)
     val chinese = Chinese(true,"中国")
     println(chinese.cook())
+
+    zhouliang.cook()
 }
