@@ -1,3 +1,5 @@
+package 第一天
+
 fun main(args: Array<String>) {
     val diTieZhan = setOf("朱辛庄","生命科学园","西二旗","上地","知春路")
     val changPingXian = setOf("朱辛庄","生命科学园")

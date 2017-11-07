@@ -1,3 +1,5 @@
+package 第一天
+
 fun main(args: Array<String>) {
     //定义
     //mapOf<Key,Value>(Pair(Key,Value),...)

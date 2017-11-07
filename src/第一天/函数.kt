@@ -1,8 +1,10 @@
+package 第一天
+
 fun main(args: Array<String>) {
     val b = add(2, 3)
     println(b)
 
-    println(sum(1,2,3,4,4,5))
+    println(sum(1, 2, 3, 4, 4, 5))
     val a = intArrayOf(1,2,3,4,5)
     println(sum(*a))
 }

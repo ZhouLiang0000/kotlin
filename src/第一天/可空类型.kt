@@ -1,3 +1,5 @@
+package 第一天
+
 fun main(args: Array<String>) {
     var adds : String = "我的家在东北"
     var sex : Boolean ?

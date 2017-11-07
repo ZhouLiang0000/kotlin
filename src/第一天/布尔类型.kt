@@ -1,4 +1,4 @@
-
+package 第一天
 fun main(args: Array<String>) {
     var vip : Boolean  = true
     if (vip) {

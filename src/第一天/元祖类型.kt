@@ -1,3 +1,5 @@
+package 第一天
+
 fun main(args: Array<String>) {
     val (day ,method ,course) = Triple(3,"学会","kotlin")
     val (desc,toll) = Pair("学费",0)

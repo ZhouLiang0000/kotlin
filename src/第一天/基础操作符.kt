@@ -1,3 +1,5 @@
+package 第一天
+
 fun main(args: Array<String>) {
     //一元操作符
     var a = 100
